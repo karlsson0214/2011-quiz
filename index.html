@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang = 'sv'>
+    <head>
+        <meta charset="utf-8">
+        <title>mall jquerry</title>
+        <link rel='stylesheet' href='style.css'/>
+    </head>
+    <body>
+        <form id="form-1" action="" method="post">
+            <!-- fråga 1 -->
+            <p>
+                <label for="answer-1">Norges huvudstad?</label>
+            </p>
+            <p>
+                <input type="text" id="answer-1" placeholder="svar" name="text" /><span id="feedback-1"></span>
+            </p>
+            <!-- fråga 2 -->
+            <p>
+                <label for="answer-2">10 + 11 = </label>
+            </p>
+            <p>
+                <input type="text" id="answer-2" placeholder="svar" name="text" /><span id="feedback-2"></span>
+            </p>
+            <!-- knapp för att rätta -->
+            <input id="submit" type="submit" value="rätta"/>
+        </form>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
