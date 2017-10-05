@@ -7,12 +7,12 @@ Fråga 1
 ======
 Översätt följande till JavaScript:
 
-  Om answer_1.value är Oslo
-    sätt correct_answer_1.textContent till "rätt"
-  Annars om answer_1.value är oslo
-    sätt correct_answer_1.textContent till "rätt, men namn på städer börjar med stor bokstav"
-  Annars
-    sätt correct_answer_1.textContent till "fel"
+    Om answer_1.value är Oslo
+        sätt feedback_1.textContent till "rätt"
+    Annars om answer_1.value är oslo
+        sätt feedback_1.textContent till "rätt, men namn på städer börjar med stor bokstav"
+    Annars
+        sätt feedback_1.textContent till "fel"
 
 Testa
 --------
